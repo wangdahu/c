@@ -1,6 +1,8 @@
 #include <stdio.h>
-int main(){
-    printf("Hello World!\n");
-    printf("char: c%\t integer: d%\t float: f%\n", 'a', 3, 5.35);
+int main(void){
+    printf("Hello, World!\n");
+    int total;
+    printf("%d\n", total = 4*5);
+    printf("%c\n", 'A' + 1);
     return 0;
 }
